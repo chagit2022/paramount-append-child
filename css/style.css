@@ -1,0 +1,153 @@
+@import url(//db.onlinewebfonts.com/c/aa46d234cf405126cdd1c36600e4b978?family=Proxima+Nova);
+@import url(//db.onlinewebfonts.com/c/ac51ad8a36d5bab6da11d454bcd06561?family=Proxima+Nova);
+
+
+body{
+    overflow-x: hidden;
+}
+
+.bgImage1{
+    background-image: url('../img/latam_upsell_hero1_weblandscape_2560x960_050422.jpeg');
+    background-size: auto;
+    width: auto;
+    padding: 20px 30px 30px 30px;
+}
+
+.navbar_params{
+    z-index: 999;
+}
+.h1-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    
+    margin-top: -10px;
+}
+
+.h1-fontC4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: -10px 0 0 150px;
+
+}
+
+.textPubRegistro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: -30px
+}
+
+.color-logo{
+    filter: opacity(75%);
+    -webkit-filter: opacity(75%);
+    margin-left: 38px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.blockhead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFFCC;
+    filter: opacity(80%);
+    -webkit-filter: opacity(80%);
+    margin-left: -67px;
+}
+
+.fontLiFoot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #999999;
+    margin-top: 10px;
+    margin-left: -68px;
+    filter: opacity(75%);
+    -webkit-filter: opacity(75%);
+}
+
+.textPubRegistroC4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.bgImage2{
+    background-image: url('../img/uk_ie_upsell_hero2_weblandscape_2560x960_060922_1.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    padding: 20px 30px 30px 30px;
+}
+
+.bgImage3{
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w2880-q80/cbs_page_attribute/16/52/image_2843f892-4464-4923-841c-7b424751fdf4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    padding: 20px 30px 30px 30px;
+}
+
+.bgImage4{
+    background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w2880-q80/cbs_page_attribute/16/54/image_e46fd8a5-07e2-4a0f-93ef-9b5eaa27001c.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    padding: 20px 30px 30px 30px;
+}
+
+
+
+
+
+.body__swiper {
+    position:relative;
+    height: 100%;
+    background: transparent;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.paramsDivBtnC4{
+    margin: 0 100px;
+}
+
+.slick-arrow.slick-prev {
+    left: -20px; 
+    z-index: 1;
+}
+
+.slick-arrow.slick-next {
+    right: -20px;
+    z-index: 1;
+}
+
+footer, ul{
+    list-style: none;
+    margin: 0;
+    
+
+}
+
+.container_logo_gris{
+    margin-top: 100px;
+}
+.margin-a_copyright{
+    margin-top: 20px;
+    margin-left: 41px;
+}
+
+.div_ul{
+    margin-left: 75px;
+}
