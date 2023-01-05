@@ -7,37 +7,41 @@ body{
 }
 
 .bgImage1{
-    background-image: url('../img/latam_upsell_hero1_weblandscape_2560x960_050422.jpeg');
-    background-size: auto;
+    background-image: url('../img/imgC1/upsell_hero1_weblandscape_2560x960_121922_5_1.jpg');
+    background-size:cover;
+    padding-left: 20px;
     width: auto;
-    padding: 20px 30px 30px 30px;
+    background-repeat: no-repeat;
+    
+    
 }
 
 .navbar_params{
     z-index: 999;
+    padding-top: 60px;
 }
 .h1-font{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 48px;
     font-weight: bold;
     
-    margin-top: -10px;
+    margin-top: 70px;
 }
 
 .h1-fontC4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 48px;
+    font-size: 55px;
     font-weight: bold;
     display: flex;
     justify-items: center;
     align-items: center;
-    margin: -10px 0 0 150px;
+    margin-left: 400px;
 
 }
 
 .textPubRegistro{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     margin-bottom: -30px
 }
@@ -51,7 +55,7 @@ body{
 }
 .blockhead{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #FFFFFFCC;
     filter: opacity(80%);
@@ -61,7 +65,7 @@ body{
 
 .fontLiFoot{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: lighter;
     color: #999999;
     margin-top: 10px;
@@ -72,7 +76,7 @@ body{
 
 .textPubRegistroC4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     display: flex;
     justify-content: center;
@@ -80,6 +84,10 @@ body{
     text-align: center;
     margin-top: 30px;
     
+}
+
+.divBtnC1{
+    padding-top: 30px;
 }
 
 .bgImage2{
@@ -90,6 +98,9 @@ body{
     padding: 20px 30px 30px 30px;
 }
 
+.paramsSlider{
+   padding-top: 80px;
+}
 .bgImage3{
     background-image: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w2880-q80/cbs_page_attribute/16/52/image_2843f892-4464-4923-841c-7b424751fdf4.jpg');
     background-size: cover;
@@ -119,8 +130,17 @@ body{
     padding: 0;
 }
 
+.paramsDivBtnC1{
+    padding: 18px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .paramsDivBtnC4{
     margin: 0 100px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
 }
 
 .slick-arrow.slick-prev {
@@ -136,8 +156,6 @@ body{
 footer, ul{
     list-style: none;
     margin: 0;
-    
-
 }
 
 .container_logo_gris{
