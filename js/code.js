@@ -20,9 +20,6 @@ divHija1_1.className = "ms-2"
 divHijaCont1.appendChild(divHija1_1)
 
 let imgDivHija1_1 = document.createElement("img")
-imgDivHija1_1.setAttribute("src","../img/kindpng_7354127.png")
-imgDivHija1_1.style = "width:150px"
-imgDivHija1_1.className="me-5" 
 imgDivHija1_1.setAttribute("alt", "logo_paramount")
 divHija1_1.appendChild(imgDivHija1_1)
 
@@ -99,7 +96,7 @@ window.addEventListener('scroll', () => {
     if(window.scrollY >= 430){
         btnFormDivHija1_2.classList.add("d-none");
         btn2FormDivHija1_2.classList.remove("d-none");
-        if(window.scrollY >= 1700){
+        if(window.scrollY >= 2300){
             btnFormDivHija1_2.classList.remove("d-none");
             btn2FormDivHija1_2.classList.add("d-none");
         }else{
@@ -122,11 +119,11 @@ divTextButtonsContainer.classList.add("d-grid", "gap-1","m-4")
 divContainer1.appendChild(divTextButtonsContainer)
 
 let sectionTextButtonsContainer = document.createElement("section")
-sectionTextButtonsContainer.classList.add("col-lg-6", "text-white")
+sectionTextButtonsContainer.classList.add("section1")
 divTextButtonsContainer.appendChild(sectionTextButtonsContainer)
 
 let divTextSectionTextBs = document.createElement("div")
-divTextSectionTextBs.className = "mt-3"
+divTextSectionTextBs.className = "texte-section1"
 sectionTextButtonsContainer.appendChild(divTextSectionTextBs)
 
 let h1DivTextDivTextS = document.createElement("h1")
@@ -159,19 +156,19 @@ divHijaDivButtons.classList.add("d-grid","gap-2","mt-5","pb-4")
 divButtonsSectionTextBs.appendChild(divHijaDivButtons)
 
 let btn1DivHijaDivBs = document.createElement("button")
-btn1DivHijaDivBs.classList.add("btn", "btn-primary", "col-7","paramsDivBtnC1")
+btn1DivHijaDivBs.classList.add("btn", "btn-primary","paramsDivBtnC1")
 btn1DivHijaDivBs.type = "submit"
 btn1DivHijaDivBs.innerText = "SUSCRÍBETE A PARAMOUNT+"
 divHijaDivButtons.appendChild(btn1DivHijaDivBs)
 
 let btn2DivHijaDivBs = document.createElement("button")
-btn2DivHijaDivBs.classList.add("btn", "btn-outline-light", "col-7", "mt-2","paramsDivBtnC1")
+btn2DivHijaDivBs.classList.add("btn", "btn-outline-light", "mt-2","paramsDivBtnC1")
 btn2DivHijaDivBs.type = "submit"
 btn2DivHijaDivBs.innerText = "YA TENGO PARAMOUNT+"
 divHijaDivButtons.appendChild(btn2DivHijaDivBs)
 
 let btn3DivHijaDivBs = document.createElement("button")
-btn3DivHijaDivBs.classList.add("btn", "btn-outline-light", "col-7", "mt-2","paramsDivBtnC1")
+btn3DivHijaDivBs.classList.add("btn", "btn-outline-light", "mt-2","paramsDivBtnC1")
 btn3DivHijaDivBs.type = "submit"
 btn3DivHijaDivBs.innerText = "INICIA SESIÓN CON TU PROVEEDOR"
 divHijaDivButtons.appendChild(btn3DivHijaDivBs)
@@ -360,7 +357,7 @@ divArticle1T1C3.appendChild(strongDivArt1T1C3)
 
 // _____article vide lado derecho ------
 let articleTextContainer3 = document.createElement("article")
-articleTextContainer3.classList.add("col-lg-5", "text-white")
+articleTextContainer3.classList.add()
 section1DivContainer3.appendChild(articleTextContainer3)
 
 // -----------SECTION 3---slider de card-img-link-------------------------
@@ -476,7 +473,7 @@ divContainer4.style.height = '100vh'
 bodyPagina.appendChild(divContainer4)
 
 let sectionDivContainer4 = document.createElement("section")
-sectionDivContainer4.classList.add("mt-5")
+sectionDivContainer4.classList.add("mt-5", "section4")
 divContainer4.appendChild(sectionDivContainer4)
 
 let h1Div2SecDC4 = document.createElement("h1")
@@ -494,28 +491,28 @@ div1SecDiCont4.appendChild( strong1Div2SecDC4)
 
 // 3buttons container4
 let divButtonsSectionTextBsC4 = document.createElement("div")
-divButtonsSectionTextBsC4.classList.add("d-flex", "justify-content-center", "align-item-center")
+divButtonsSectionTextBsC4.classList.add()
 sectionDivContainer4.appendChild(divButtonsSectionTextBsC4)
 //  ok hasta aqui
 
 let divHijaDivButtonsC4 = document.createElement("div")
-divHijaDivButtonsC4.classList.add("d-grid","gap-2","mt-5","pb-4", "mx-5")
+divHijaDivButtonsC4.classList.add("d-grid","gap-2","mt-4")
 divButtonsSectionTextBsC4.appendChild(divHijaDivButtonsC4)
 // // ok hasta aqui
 let btn1DivHijaDivBsC4 = document.createElement("button")
-btn1DivHijaDivBsC4.classList.add("btn", "btn-primary", "px-5", "mt-2", "paramsDivBtnC4")
+btn1DivHijaDivBsC4.classList.add("btn", "btn-primary","paramsDivBtnC4")
 btn1DivHijaDivBsC4.type = "submit"
 btn1DivHijaDivBsC4.innerText = "SUSCRÍBETE A PARAMOUNT+"
 divHijaDivButtonsC4.appendChild(btn1DivHijaDivBsC4)
 
 let btn2DivHijaDivBsC4 = document.createElement("button")
-btn2DivHijaDivBsC4.classList.add("btn", "btn-outline-light", "px-5", "mt-2", "paramsDivBtnC4")
+btn2DivHijaDivBsC4.classList.add("btn", "btn-outline-light","paramsDivBtnC4")
 btn2DivHijaDivBsC4.type = "submit"
 btn2DivHijaDivBsC4.innerText = "YA TENGO PARAMOUNT+"
 divHijaDivButtonsC4.appendChild(btn2DivHijaDivBsC4)
 
 let btn3DivHijaDivBsC4 = document.createElement("button")
-btn3DivHijaDivBsC4.classList.add("btn", "btn-outline-light", "px-5", "mt-2", "paramsDivBtnC4")
+btn3DivHijaDivBsC4.classList.add("btn", "btn-outline-light","paramsDivBtnC4")
 btn3DivHijaDivBsC4.type = "submit"
 btn3DivHijaDivBsC4.innerText = "INICIA SESIÓN CON TU PROVEEDOR"
 divHijaDivButtonsC4.appendChild(btn3DivHijaDivBsC4)
