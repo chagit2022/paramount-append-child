@@ -20,18 +20,22 @@ body{
     position: fixed;
 }
 
+
+
+
+
+
 .section1{
     position: absolute;
     color: white;
     width: 700px;
 }
-.h1-font{
+.h1-font, .h1-fontC2, .h1-fontC3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 60px;
     font-weight: bold;
     margin-top: 100px;
     line-height: 0.95;
-
 }
 
 .section4{
@@ -49,15 +53,12 @@ body{
 .btn{
     border-radius: 0;
 }
-
 .textPubRegistro{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: lighter;
     margin-bottom: -30px;
-
 }
-
 .color-logo{
     filter: opacity(75%);
     -webkit-filter: opacity(75%);
@@ -105,6 +106,10 @@ body{
     width: 70%;
 }
 
+.sliderItemImg{
+    width: 250px;
+}
+
 .bgImage2{
     background-image: url('../img/imgC2/uk_ie_upsell_hero2_weblandscape_2560x960_060922_1.jpeg');
     background-size: cover;
@@ -115,6 +120,7 @@ body{
 
 .paramsSlider{
    padding-top: 80px;
+   overflow-y: hidden;
 }
 .bgImage3{
     background-image: url('../img/imgC3/startrek0.jpeg');
@@ -132,7 +138,7 @@ body{
     padding: 20px 30px 30px 30px;
 }
 
-.body_swiper {
+.body__swiper {
     position:relative;
     height: 100%;
     background: transparent;
@@ -153,17 +159,21 @@ body{
 
 .slick-arrow.slick-prev {
     left: -20px; 
-    z-index: 1;
+    z-index: 5;
 }
 
 .slick-arrow.slick-next {
     right: -20px;
-    z-index: 1;
+    z-index: 5;
 }
 
 footer, ul{
     list-style: none;
-    margin: 0;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-right: 20px;
+}
+ul{
 }
 
 .container_logo_gris{
@@ -174,13 +184,11 @@ footer, ul{
     margin-left: 41px;
 }
 
-.div_ul{
-    margin-left: 75px;
-}
-
 @media screen and (max-width: 1024px){
     .bgImage1{
         background-image: url('../img/imgC1/upsell_hero1_copie\ 1.jpg');
+        width: auto;
+        object-fit: contain;
     }
     .bgImage2{
         background-image: url('../img/imgC2/halobg_copie1.jpeg');
@@ -197,21 +205,40 @@ footer, ul{
         margin-top: 300px;
     }
 
-    .h1-font, .h1-fontC4{
-        margin: 70px auto 20px;
-        font-size: 30px;
-        width: 300px;
-        text-align: center;
+    .section2, .section3{
+        margin: 50px 35px;
+        width: 50%;
     }
+
+    .h1-font, .h1-fontC4{
+        margin: 70px auto 10px;
+        font-size: 35px;
+        width: 60%;
+        text-align: center;
+        
+    }
+    .h1-fontC2, .h1-fontC3{
+        font-size: 35px;
+        width: 60%;
+    }
+    
     .textPubRegistro{
         font-size: 16px;
         width: 300px;
         margin:0 auto;
         padding: 0;
     }
+    .slider-control{
+        width: 400px;
+        overflow-y: hidden;
+    }
+    .sliderItemImg{
+        width: 200px;
+        height: 100%;
+    }
     .paramsDivBtnC1{
         width: 100%;
-        margin-top: 0;
+        margin-top: -40px;
     }
 
     .paramsDivBtnC4{
@@ -220,7 +247,25 @@ footer, ul{
         font-weight: 500;
         width: 100%;
     }
+    footer, ul{
+        list-style: none;
+        box-sizing: border-box;
+    }
     
+    .container_logo_gris{
+        margin-top: 80px;
+    }
+    .margin-a_copyright{
+        margin-top: 20px;
+        margin-left: 41px;
+    }
+    
+    .div_ul{
+        margin-left: 75px;
+    }
+    .paramsSlider{
+        padding-top: 80px;
+     }
 
    
 

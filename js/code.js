@@ -1,4 +1,5 @@
 let bodyPagina = document.querySelector("body")
+// container 1
 let divContainer1 = document.createElement("div")
 divContainer1.classList.add("container-fluide", "bgImage1")
 divContainer1.style.height = '100vh'
@@ -20,6 +21,8 @@ divHija1_1.className = "ms-2"
 divHijaCont1.appendChild(divHija1_1)
 
 let imgDivHija1_1 = document.createElement("img")
+imgDivHija1_1.setAttribute("src","../img/kindpng_7354127.png")
+imgDivHija1_1.classList.add("me-5","logo_paramount")
 imgDivHija1_1.setAttribute("alt", "logo_paramount")
 divHija1_1.appendChild(imgDivHija1_1)
 
@@ -176,14 +179,14 @@ divHijaDivButtons.appendChild(btn3DivHijaDivBs)
 
 
 
-//----------container2---------------
+//----------container 2---------------
 let divContainer2 = document.createElement("div")
 divContainer2.classList.add("container-fluide", "bg", "bgImage2")
 divContainer2.style.height = '100vh'
 bodyPagina.appendChild(divContainer2)
 // --------SECTION 1 texto lado izquierdo
 let section1DivContainer2 = document.createElement("section")
-section1DivContainer2.classList.add("d-grid", "gap-1", "ms-3", "mt-4")
+section1DivContainer2.classList.add("d-grid", "gap-1", "section2")
 divContainer2.appendChild(section1DivContainer2)
 // -------article1 container2 text-------
 let article1TextsCont2 = document.createElement("article")
@@ -195,7 +198,7 @@ divArticle1T1C2.classList.add("mt-2")
 article1TextsCont2.appendChild(divArticle1T1C2)
 
 let h1DivArt1T1C2 = document.createElement("h1")
-h1DivArt1T1C2.classList.add("h1-font", "mb-3")
+h1DivArt1T1C2.classList.add("h1-fontC2", "mb-3")
 h1DivArt1T1C2.innerText = "SOMOS ORIGINALES Y EXCLUSIVOS"
 divArticle1T1C2.appendChild(h1DivArt1T1C2)
 
@@ -221,8 +224,8 @@ divContainer2.appendChild(section2DivContainer2)
 
 // -----article container slider--------
 let ArticleS2DivC2 = document.createElement("article")
-ArticleS2DivC2.classList.add("body__swiper")
-ArticleS2DivC2.style.width = "180vh"
+ArticleS2DivC2.classList.add("body_swiper")
+ArticleS2DivC2.style.width = "100%"
 section2DivContainer2.appendChild(ArticleS2DivC2)
 
 //<!-- Swiper -->
@@ -237,10 +240,9 @@ divSlider1Item1ContSwip.classList.add("slider_item", "d-flex")
 divContainerSwiper.appendChild(divSlider1Item1ContSwip)
 
 let imgDivSlider1 = document.createElement("img")
-imgDivSlider1.setAttribute("src", "img/halo_s1_poster_1400x2100_nb_022822_2.jpeg")
+imgDivSlider1.setAttribute("src", "img/imgC2/halo_s1_poster_1400x2100_nb_022822_2.jpeg")
 imgDivSlider1.setAttribute("alt", "halo")
-imgDivSlider1.style.width = "250px"
-imgDivSlider1.classList.add("p-2")
+imgDivSlider1.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider1)
 // -------img2-----------
 let divSlider2Item1ContSwip = document.createElement("div")
@@ -250,8 +252,7 @@ divContainerSwiper.appendChild(divSlider2Item1ContSwip)
 let imgDivSlider2 = document.createElement("img")
 imgDivSlider2.setAttribute("src", "img/first_lady_s1_poster_1400x2100_nb_032322_2.jpeg")
 imgDivSlider2.setAttribute("alt", "first lady")
-imgDivSlider2.style.width = "250px"
-imgDivSlider2.classList.add("p-2")
+imgDivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider2)
 // --------img 3----------
 let divSlider3Item1ContSwip = document.createElement("div")
@@ -261,8 +262,7 @@ divContainerSwiper.appendChild(divSlider3Item1ContSwip)
 let imgDivSlider3 = document.createElement("img")
 imgDivSlider3.setAttribute("src", "img/enviados_s1_latam_poster_1400x2100_nb_011822.jpeg")
 imgDivSlider3.setAttribute("alt", "los enviados")
-imgDivSlider3.style.width = "250px"
-imgDivSlider3.classList.add("p-2")
+imgDivSlider3.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider3)
 // -------img 4-----------****
 let divSlider4Item1ContSwip = document.createElement("div")
@@ -272,8 +272,7 @@ divContainerSwiper.appendChild(divSlider4Item1ContSwip)
 let imgDivSlider4 = document.createElement("img")
 imgDivSlider4.setAttribute("src", "img/rupauls_dragrace_s14_poster_1400x2100_nb_012722_0.jpeg")
 imgDivSlider4.setAttribute("alt", "rupauls")
-imgDivSlider4.style.width = "250px"
-imgDivSlider4.classList.add("p-2")
+imgDivSlider4.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider4)
 // ---------img 5---------
 let divSlider5Item1ContSwip = document.createElement("div")
@@ -283,8 +282,7 @@ divContainerSwiper.appendChild(divSlider5Item1ContSwip)
 let imgDivSlider5 = document.createElement("img")
 imgDivSlider5.setAttribute("src", "img/yellowstone_s4_poster_1400x2100_nb_102621_1.jpeg")
 imgDivSlider5.setAttribute("alt", "yellow stone")
-imgDivSlider5.style.width = "250px"
-imgDivSlider5.classList.add("p-2")
+imgDivSlider5.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider5)
 // --------img 6----------
 let divSlider6Item1ContSwip = document.createElement("div")
@@ -294,8 +292,7 @@ divContainerSwiper.appendChild(divSlider6Item1ContSwip)
 let imgDivSlider6 = document.createElement("img")
 imgDivSlider6.setAttribute("src", "img/killing_eve_s4_poster_1400x2100_021822.jpeg")
 imgDivSlider6.setAttribute("alt", "killing-eve")
-imgDivSlider6.style.width = "250px"
-imgDivSlider6.classList.add("p-2")
+imgDivSlider6.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider6)
 // --------img 7----------
 let divSlider7Item1ContSwip = document.createElement("div")
@@ -305,8 +302,7 @@ divContainerSwiper.appendChild(divSlider7Item1ContSwip)
 let imgDivSlider7 = document.createElement("img")
 imgDivSlider7.setAttribute("src", "img/yellowjackets_s1_poster_1400x2100_nb_111021_1.jpeg")
 imgDivSlider7.setAttribute("alt", "yellow-jacket")
-imgDivSlider7.style.width = "250px"
-imgDivSlider7.classList.add("p-2")
+imgDivSlider7.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider7)
 // -------img 8-----------
 let divSlider8Item1ContSwip = document.createElement("div")
@@ -316,8 +312,7 @@ divContainerSwiper.appendChild(divSlider8Item1ContSwip)
 let imgDivSlider8 = document.createElement("img")
 imgDivSlider8.setAttribute("src", "img/sproc_salone_poster_1400x2100_nb_121021_0.jpeg")
 imgDivSlider8.setAttribute("alt", "SPROC")
-imgDivSlider8.style.width = "250px"
-imgDivSlider8.classList.add("p-2")
+imgDivSlider8.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip.appendChild(imgDivSlider8)
 
 
@@ -329,7 +324,7 @@ divContainer3.style.height = '100vh'
 bodyPagina.appendChild(divContainer3)
 // --------SECTION 1 texto lado izquierdo
 let section1DivContainer3 = document.createElement("section")
-section1DivContainer3.classList.add("d-grid", "gap-1", "ms-3", "mt-4")
+section1DivContainer3.classList.add("d-grid", "gap-1", "section3")
 divContainer3.appendChild(section1DivContainer3)
 // -------article1 container2 text-------
 let article1TextsCont3 = document.createElement("article")
@@ -341,7 +336,7 @@ divArticle1T1C3.classList.add("mt-1")
 article1TextsCont3.appendChild(divArticle1T1C3)
 
 let h1DivArt1T1C3 = document.createElement("h1")
-h1DivArt1T1C3.classList.add("h1-font")
+h1DivArt1T1C3.classList.add("h1-fontC3")
 h1DivArt1T1C3.innerText = " TENEMOS TU CONTENIDO FAVORITO "
 divArticle1T1C3.appendChild(h1DivArt1T1C3)
 
@@ -384,8 +379,7 @@ divContainerSwiper2.appendChild(divSlider1Item1ContSwip2)
 let img1DivSlider2 = document.createElement("img")
 img1DivSlider2.setAttribute("src", "img/imgC3/1883_s1_poster_1400x2100_nb_030722.jpeg")
 img1DivSlider2.setAttribute("alt", "1883")
-img1DivSlider2.style.width = "250px"
-img1DivSlider2.classList.add("p-2")
+img1DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider1Item1ContSwip2.appendChild(img1DivSlider2)
 // -------img2-----------
 let divSlider2Item1ContSwip2 = document.createElement("div")
@@ -395,8 +389,7 @@ divContainerSwiper2.appendChild(divSlider2Item1ContSwip2)
 let img2DivSlider2 = document.createElement("img")
 img2DivSlider2.setAttribute("src", "img/imgC3/paw_patrol_s8a_poster_1400x2100_nb_100521_0.jpeg")
 img2DivSlider2.setAttribute("alt", "paw patrol")
-img2DivSlider2.style.width = "250px"
-img2DivSlider2.classList.add("p-2")
+img2DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img2DivSlider2)
 // --------img 3----------
 let divSlider3Item1ContSwip2 = document.createElement("div")
@@ -406,8 +399,7 @@ divContainerSwiper2.appendChild(divSlider3Item1ContSwip2)
 let img3DivSlider2 = document.createElement("img")
 img3DivSlider2.setAttribute("src", "img/imgC3/resistire_s2_poster_1400x2100_032222.jpeg")
 img3DivSlider2.setAttribute("alt", "resistiré")
-img3DivSlider2.style.width = "250px"
-img3DivSlider2.classList.add("p-2")
+img3DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img3DivSlider2)
 // -------img 4-----------
 let divSlider4Item1ContSwip2 = document.createElement("div")
@@ -417,8 +409,7 @@ divContainerSwiper2.appendChild(divSlider4Item1ContSwip2)
 let img4DivSlider2 = document.createElement("img")
 img4DivSlider2.setAttribute("src", "img/imgC3/patrick_star_s1_poster_1400x2100_120721.jpeg")
 img4DivSlider2.setAttribute("alt", "patrickstar")
-img4DivSlider2.style.width = "250px"
-img4DivSlider2.classList.add("p-2")
+img4DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img4DivSlider2)
 // ---------img 5---------
 let divSlider5Item1ContSwip2 = document.createElement("div")
@@ -428,8 +419,7 @@ divContainerSwiper2.appendChild(divSlider5Item1ContSwip2)
 let img5DivSlider2 = document.createElement("img")
 img5DivSlider2.setAttribute("src", "img/imgC3/madame_x_sa_poster_1400x2100_nb_093021_0.jpeg")
 img5DivSlider2.setAttribute("alt", "madame X")
-img5DivSlider2.style.width = "250px"
-img5DivSlider2.classList.add("p-2")
+img5DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img5DivSlider2)
 // --------img 6----------
 let divSlider6Item1ContSwip2 = document.createElement("div")
@@ -439,8 +429,7 @@ divContainerSwiper2.appendChild(divSlider6Item1ContSwip2)
 let img6DivSlider2 = document.createElement("img")
 img6DivSlider2.setAttribute("src", "img/imgC3/arriba_chef_s1a_poster_1400x2100_nb_070221.jpeg")
 img6DivSlider2.setAttribute("alt", "manos arriba")
-img6DivSlider2.style.width = "250px"
-img6DivSlider2.classList.add("p-2")
+img6DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img6DivSlider2)
 // --------img 7----------
 let divSlider7Item1ContSwip2 = document.createElement("div")
@@ -450,17 +439,17 @@ divContainerSwiper2.appendChild(divSlider7Item1ContSwip2)
 let img7DivSlider2 = document.createElement("img")
 img7DivSlider2.setAttribute("src", "img/imgC3/cecilia_s1_poster_1400x2100_nb_121721.jpeg")
 img7DivSlider2.setAttribute("alt", "cecilia")
-img7DivSlider2.style.width = "250px"
-img7DivSlider2.classList.add("p-2")
+img7DivSlider2.classList.add("p-2", "sliderItemImg")
 divSlider2Item1ContSwip2.appendChild(img7DivSlider2)
 // -------ok-----
 
 //<!-- Initialize Swiper -->
 $('.slider-control').slick({
     infinite: false,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
     arrows: true,
+    rtl: true,
     accessibility: true,
 });
 
