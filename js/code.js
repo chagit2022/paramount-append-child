@@ -21,7 +21,7 @@ divHija1_1.className = "ms-2"
 divHijaCont1.appendChild(divHija1_1)
 
 let imgDivHija1_1 = document.createElement("img")
-imgDivHija1_1.setAttribute("src","../img/kindpng_7354127.png")
+// imgDivHija1_1.setAttribute("src","../img/kindpng_7354127.png")
 imgDivHija1_1.classList.add("me-5","logo_paramount")
 imgDivHija1_1.setAttribute("alt", "logo_paramount")
 divHija1_1.appendChild(imgDivHija1_1)
@@ -83,17 +83,23 @@ formDivHija1_2.className = "d-flex"
 divHija1_2.appendChild(formDivHija1_2)
 
 //  button de INICIAR SESSION
-let btnFormDivHija1_2 = document.createElement("button")
-btnFormDivHija1_2.classList.add("btn", "btn-outline-light", "me-5")
-btnFormDivHija1_2.type = "button"
-btnFormDivHija1_2.innerText = "INICIAR SESIÓN"
-formDivHija1_2.appendChild(btnFormDivHija1_2)
-
-let btn2FormDivHija1_2 = document.createElement("button")
-btn2FormDivHija1_2.classList.add("btn", "btn-primary", "me-5", "d-none")
-btn2FormDivHija1_2.type = "button"
-btn2FormDivHija1_2.innerText = "SUSCRÍBETE A PARAMOUNT+"
-formDivHija1_2.appendChild(btn2FormDivHija1_2)
+let btnFormDivHija1_2 = document.createElement("button");
+btnFormDivHija1_2.classList.add("btn", "btn-outline-light", "me-5");
+btnFormDivHija1_2.type = "button";
+btnFormDivHija1_2.innerText = "INICIAR SESIÓN";
+btnFormDivHija1_2.addEventListener("click", function() {
+  window.location.href = "https://www.paramountplus.com/co/account/signin/?redirectUrl=%2Faccount%2Fflow%2Ff-upsell%2Faction%2Flogin%2F";
+});
+formDivHija1_2.appendChild(btnFormDivHija1_2);
+// button subscripcion paramount 
+let btn2FormDivHija1_2 = document.createElement("button");
+btn2FormDivHija1_2.classList.add("btn", "btn-primary", "me-5", "d-none");
+btn2FormDivHija1_2.type = "button";
+btn2FormDivHija1_2.innerText = "SUSCRÍBETE A PARAMOUNT+";
+btn2FormDivHija1_2.addEventListener("click", function() {
+  window.location.href = "https://www.paramountplus.com/co/account/signup/account/";
+});
+formDivHija1_2.appendChild(btn2FormDivHija1_2);
 // -----------scroll btn iniciar/btn subscripcion-------
 window.addEventListener('scroll', () => {
     if(window.scrollY >= 430){
